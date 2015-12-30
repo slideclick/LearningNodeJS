@@ -38,7 +38,7 @@ fo.file_exists(function (err, results) {
         return;
     }
 
-    console.log("file exists!!!");
+    console.log(results ? "file exists!!!" : "bummer!");
 });
 
 
